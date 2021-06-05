@@ -1,7 +1,7 @@
-<h1 align="center">prismarine-pregenerator</h1>
-<p align="center"><i>A simple world pre-generator for Minecraft</i></p>
+<h1>prismarine-pregenerator</h1>
+<p><i>A simple world pre-generator for Minecraft (WIP)</i></p>
 
-[![NPM version](https://img.shields.io/npm/v/leveldb-zlib.svg)](http://npmjs.com/package/prismarine-pregenerator)
+[![NPM version](https://img.shields.io/npm/v/prismarine-pregenerator.svg)](http://npmjs.com/package/prismarine-pregenerator)
 [![Build Status](https://github.com/extremeheat/prismarine-pregenerator/workflows/CI/badge.svg)](https://github.com/extremeheat/prismarine-pregenerator/actions?query=workflow%3A%22CI%22)
 [![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/GsEFRM8)
 [![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/extremeheat/prismarine-pregenerator)
@@ -58,7 +58,7 @@ await generator.generate({ minX: -100, minZ: -100, maxX: 100, maxZ: 100 }, true)
 
 #### Generator
 
-##### setOpt
+##### setOptions
 
 <!-- Dynamic usage with prismarine-world as a generator, note this will be a slow process:
 
