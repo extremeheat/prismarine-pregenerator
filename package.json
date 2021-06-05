@@ -1,0 +1,23 @@
+{
+  "name": "prismarine-pregenerator",
+  "version": "0.0.1",
+  "description": "Minecraft world pre-generator",
+  "main": "index.js",
+  "repository": "https://github.com/extremeheat/prismarine-pregenerator",
+  "author": "extremeheat",
+  "license": "MIT",
+  "bin": "dist/cli.js",
+  "dependencies": {
+    "bedrock-protocol": "^3.3.0",
+    "bedrock-provider": "^1.0.1",
+    "command-line-args": "^5.1.1",
+    "minecraft-wrap": "^1.3.0",
+    "mineflayer": "^3.7.0",
+    "prismarine-provider-anvil": "^2.3.2",
+    "prismarine-world": "^3.6.0"
+  },
+  "devDependencies": {
+    "prismarine-pregenerator": "file:.",
+    "typescript": "^4.3.2"
+  }
+}
